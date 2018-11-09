@@ -1,10 +1,5 @@
-// dkapadia914
-// dkapadia914
-// dkapadia914
-// dkapadia914
-// dkapadia914
 /*
- * First and Last Names
+ * Dev Kapadia
  */
 
 public class Homework3 {
@@ -22,34 +17,42 @@ public class Homework3 {
 	 * class (e.g. Math.random())
 	 */
 	public void grade() {
+		Homework3.grade(this);
 
 	}
 
 	/* Calculate and return the sum of value1, value2, and value3
 	 */
 	public int sum() {
-
+		int sum = value1 + value2 + value3;
+		return sum;
 	}
 
 	/* Calculate and return the average of value1, value2, and value3
 	 * Hint: the average of numbers can be fractional
 	 */
 	public double average() {
-
+		double average = (value1 + value2 + value3)/3;
+		return average;
 	}
 
 	/* Calculate and return the difference between the product and sum of
 	 * value 1, value2, and value3
 	 */
 	 public int productSumDifference() {
-
+		 int difference = (value1 * value2 * value3) - (value1 + value2 + value3);
+		 return difference;
 	 }
 
 	 /* Calculate and return the sum of the squares of value1, value2, and
 	  * value3
 	  */
 	  public int sumSquares() {
-
+			double newvalue1 = (double)(value1);
+			double newvalue2 = (double)(value2);
+			double newvalue3 = (double)(value3);
+			int squar = (int)((Math.pow(newvalue1, 2.0)) + (Math.pow(newvalue2, 2.0)) + (Math.pow(newvalue3, 2.0)));
+			return squar;
 	  }
 
 	  /* Tests to verify that your solutions work
